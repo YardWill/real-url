@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # 获取斗鱼直播间的真实流媒体地址，可在PotPlayer、flv.js等播放器中播放。
 # 2019年11月2日：修复斗鱼预览地址获取的方法；新增未开播房间的判断。
 # 2019年12月4日：斗鱼更新后更简单了，可直接在播放页源码的JS中找到播放地址。
@@ -139,8 +140,8 @@ def get_url_from_js(rid):
     return "http://tx2play1.douyucdn.cn/live/" + real_url + ".flv?uuid="
 
 
-rid = input('请输入斗鱼数字房间号：\n')
-real_url = get_real_url(rid)
-print('该直播间地址为：\n' + real_url)
+# rid = input('请输入斗鱼数字房间号：\n')
+# real_url = get_real_url(rid)
+# print('该直播间地址为：\n' + real_url)
 
 # print(get_url_from_js('85894'))
