@@ -32,3 +32,10 @@
 
 > 2019.11.02：修复斗鱼预览地址获取的方法；新增未开播房间的判断。
 
+
+### run
+python3 manage.py runserver 0:8000
+
+### url
+only  douyu
+localhost:8000/?no=xxxx
